@@ -1,0 +1,87 @@
+#message-div {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  input {
+    width: 90%;
+    margin: 0;
+    border-right: 0;
+  }
+  button {
+    width: 10%;
+    height: 30px;
+    border: 1px solid rgb(61, 61, 252);
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    background-color: transparent;
+    border-radius: 2px;
+    transition: all 200ms ease;
+    cursor: pointer;
+    border-left: 0;
+    outline: none;
+    &:hover {
+      &::placeholder {
+        color: white;
+      }
+      background-color: rgb(61, 61, 252);
+    }
+  }
+}
+
+
+.message{
+  background-color: rgb(61, 61, 252);
+  border-radius: 6px;
+  width: auto;
+  max-width: 400px;
+  min-width:100px;
+  padding: 10px;
+  margin: 10px;
+  img{
+    margin: 5px;
+    border-radius: 6px;
+  }
+  
+}
+#texts-div{
+  margin-bottom: 100px;
+}
+
+#form{
+  position: fixed;
+  bottom: 2px;
+  
+  right: 0;
+  left: 0;
+  padding: 10px;
+  button,input{
+    color: white;
+    background-color: transparent;
+    border: 1px solid blue;
+    outline: none;
+    padding: 10px;
+  }
+  #attach-file{
+    border-left: 1px solid blue;
+    border: 1px solid blue;
+    border-radius: 6px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+  button{
+    border-left: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+  }
+  input{
+    width: 60%;
+    border-right: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+}
+

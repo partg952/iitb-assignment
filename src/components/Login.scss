@@ -1,0 +1,29 @@
+#github-login{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button{
+        display: flex;
+        align-items: center;
+        margin: 10px auto 10px auto;
+        font-size: 30px;
+        border-radius: 6px;
+        border: 1px solid black;
+        outline: none;
+        background-color: transparent;
+        box-shadow: 0px 0px 5px 0px black;
+        transition: all 200ms ease;
+        cursor: pointer;
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}
+#github-logo{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    
+}

@@ -1,0 +1,63 @@
+body{
+    background: rgb(5, 5, 117);
+}
+#project-name{
+    padding: 10px;
+    background-color: transparent;
+    margin: 10px;
+    width: 50%;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+    color: white;
+
+    outline: none;
+    transition: all 200ms ease;
+    &:hover{
+        border-bottom: 1px solid rgb(192, 192, 9);
+
+    }
+   
+}
+
+#file-picker{
+    display: none;
+}
+#pick-pdf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    border-radius: 6px;
+    padding: 10px;
+    height: 40vh;
+    width: 70vw;
+    font-size: 20px;
+    border: 1px dashed white;
+    margin-top: 60px;
+    cursor: pointer;
+    img{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+#file-upload-button{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: all 200ms ease;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid rgb(192, 192, 9);
+    }
+}
+
+#loading{
+    visibility: hidden;
+}
+
